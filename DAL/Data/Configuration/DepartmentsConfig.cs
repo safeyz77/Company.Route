@@ -9,7 +9,7 @@ using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
 namespace DAL.Data.Configuration
 {
-    internal class DepartmentsConfig : IEntityTypeConfiguration<Department>
+    public class DepartmentsConfig : IEntityTypeConfiguration<Department>
     {
         public void Configure(EntityTypeBuilder<Department> builder)
         {
